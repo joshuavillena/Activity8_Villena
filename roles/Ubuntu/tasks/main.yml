@@ -1,0 +1,6 @@
+---
+
+  - name: Install nagios (Ubuntu)
+    apt:
+      name: nagios4
+      state: latest

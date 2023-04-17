@@ -1,0 +1,8 @@
+---
+
+  - name: Install nagios (CentOS)
+    dnf:
+      name:
+        - nagios
+        - nagios-plugins
+      state: latest
